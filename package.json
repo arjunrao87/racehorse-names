@@ -1,6 +1,6 @@
 {
   "name": "racehorse-names",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "repository": "https://github.com/arjunrao87/racehorse-names.git",
   "author": {
@@ -16,7 +16,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "meow": "^5.0.0"
+    "meow": "^3.6.0"
   },
   "keywords": [
     "cli-app",
