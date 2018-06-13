@@ -6,7 +6,7 @@ Gives you names of racing horses 🏇🏻 🎠 🐴
 
 List of names includes horses that have won the Kentucky Derby and the Belmont Stakes as well as a whole bunch of other famous stallions of lore.
 
-Can be used as an NPM library or CLI
+Can be used as an [NPM](https://www.npmjs.com/package/racehorse-names) library or CLI
 
 # NPM usage
 
