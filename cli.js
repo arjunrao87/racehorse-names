@@ -1,12 +1,14 @@
-var stallionNames = require('./');
+#!/usr/bin/env node
+
 var meow = require('meow');
+var racehorses = require('./');
 
 var cli = meow([
 	'Examples',
-	'  $ stallion-names',
+	'  $ racehorse-names',
 	'  Secretariat',
 	'',
-	'  $ stallion-names --all',
+	'  $ racehorse-names --all',
 	'  A.P. Indy',
 	'  Adios Butler',
 	'  ...',
@@ -15,4 +17,4 @@ var cli = meow([
 	'  --all   Get all names instead of a picking a random one'
 ]);
 
-console.log(cli.flags.all ? stallionNames.all.join('\n') : stallionNames.random());
+console.log(cli.flags.all ? racehorses.all.join('\n') : racehorses.random());
