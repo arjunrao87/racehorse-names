@@ -26,7 +26,7 @@ racehorses.all;
 # CLI usage
 
 ```
-yarn add --global racehorse-names
+yarn global add racehorse-names
 ```
 
 ```
